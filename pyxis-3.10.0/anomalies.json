@@ -1,0 +1,1642 @@
+[
+  {
+    "key": "null_void_beam",
+    "name": "Null Void Beam",
+    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 2500,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_NV_WEAPON",
+      "<b>Component</b>: MEDIUM_NV_WEAPON",
+      "<b>Component</b>: SMALL_NV_WEAPON"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_1",
+    "name": "tech_akx_worm_1",
+    "description": "tech_akx_worm_1_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "Field Manipulation",
+    "cost": 4000,
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Always"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_2",
+    "name": "tech_akx_worm_2",
+    "description": "tech_akx_worm_2_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "Statecraft",
+    "cost": 4000,
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Always"
+    ],
+    "potential": [],
+    "children": [
+      {
+        "key": "tech_akx_worm_3",
+        "name": "tech_akx_worm_3",
+        "description": "tech_akx_worm_3_desc",
+        "area": "physics",
+        "base_factor": 1.0,
+        "base_weight": 60.0,
+        "category": "Particles",
+        "cost": 10000,
+        "feature_unlocks": [
+          "<b>Building</b>: building_akx_worm_3"
+        ],
+        "is_dangerous": true,
+        "is_rare": true,
+        "is_start_tech": false,
+        "prerequisites": [
+          "tech_akx_worm_2",
+          "tech_akx_worm_1"
+        ],
+        "tier": 3,
+        "prerequisites_names": [
+          {
+            "name": "tech_akx_worm_1",
+            "key": "tech_akx_worm_1"
+          },
+          {
+            "name": "tech_akx_worm_2",
+            "key": "tech_akx_worm_2"
+          }
+        ],
+        "weight_modifiers": [],
+        "potential": [],
+        "children": [],
+        "is_event": true,
+        "source": "vanilla"
+      }
+    ],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_akx_worm_3",
+    "name": "tech_akx_worm_3",
+    "description": "tech_akx_worm_3_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 60.0,
+    "category": "Particles",
+    "cost": 10000,
+    "feature_unlocks": [
+      "<b>Building</b>: building_akx_worm_3"
+    ],
+    "is_dangerous": true,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_akx_worm_2",
+      "tech_akx_worm_1"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "tech_akx_worm_1",
+        "key": "tech_akx_worm_1"
+      },
+      {
+        "name": "tech_akx_worm_2",
+        "key": "tech_akx_worm_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_alien_topography",
+    "name": "tech_alien_topography",
+    "description": "tech_alien_topography_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "New Worlds",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_planet_non_artificial_max_districts_add +1"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_amoeba_strike_craft_1",
+    "name": "Amoeba Breeding Program",
+    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 6000,
+    "feature_unlocks": [
+      "<b>Component</b>: AMOEBA_STRIKE_CRAFT"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_atmospheric_orbital_mechanics",
+    "name": "tech_atmospheric_orbital_mechanics",
+    "description": "tech_atmospheric_orbital_mechanics_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Computing",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_stations_produces_mult +5%",
+      "mod_country_stations_upkeep_mult -50%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_btc_1",
+    "name": "tech_btc_1",
+    "description": "tech_btc_1_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: PLANET_KILLER_STAR_CRACKER"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has Nemesis",
+      "Has ap_become_the_crisis Ascension Perk",
+      "Has the can_build_star_eaters country flag"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_compact_living",
+    "name": "tech_compact_living",
+    "description": "tech_compact_living_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Statecraft",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_empire_size_penalty_mult -5%",
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_covenant_composer",
+    "name": "tech_covenant_composer",
+    "description": "tech_covenant_composer_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: COMPOSER_MARK"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_covenant_eater",
+    "name": "tech_covenant_eater",
+    "description": "tech_covenant_eater_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: EATER_MARK"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_covenant_instrument",
+    "name": "tech_covenant_instrument",
+    "description": "tech_covenant_instrument_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: INSTRUMENT_MARK"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_covenant_whisperers",
+    "name": "tech_covenant_whisperers",
+    "description": "tech_covenant_whisperers_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: WHISPERERS_MARK"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_crystal_armor_1",
+    "name": "Crystal-Infused Plating",
+    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Materials",
+    "cost": 6000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_CRYSTAL_ARMOR_1",
+      "<b>Component</b>: MEDIUM_CRYSTAL_ARMOR_1",
+      "<b>Component</b>: SMALL_CRYSTAL_ARMOR_1"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+) Has the crystal_armor_1_weight country flag"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_crystal_armor_2",
+    "name": "Crystal-Forged Plating",
+    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Materials",
+    "cost": 16000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_CRYSTAL_ARMOR_2",
+      "<b>Component</b>: MEDIUM_CRYSTAL_ARMOR_2",
+      "<b>Component</b>: SMALL_CRYSTAL_ARMOR_2"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_dragon_armor",
+    "name": "Artificial Dragonscales",
+    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Materials",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_DRAGON_ARMOR",
+      "<b>Component</b>: MEDIUM_DRAGON_ARMOR",
+      "<b>Component</b>: SMALL_DRAGON_ARMOR"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_dyson_sphere",
+    "name": "tech_dyson_sphere",
+    "description": "tech_dyson_sphere_desc",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Field Manipulation",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Mega-Structure</b>: dyson_sphere_0",
+      "<b>Mega-Structure</b>: dyson_sphere_1",
+      "<b>Mega-Structure</b>: dyson_sphere_2",
+      "<b>Mega-Structure</b>: dyson_sphere_3",
+      "<b>Mega-Structure</b>: dyson_sphere_4",
+      "<b>Mega-Structure</b>: dyson_sphere_5"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Mega-Engineering",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_enigmatic_decoder",
+    "name": "Enigmatic Decoder",
+    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Computing",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: ENIGMATIC_DECODER"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_enigmatic_encoder",
+    "name": "Enigmatic Encoder",
+    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Computing",
+    "cost": 50000,
+    "feature_unlocks": [
+      "<b>Component</b>: ENIGMATIC_ENCODER"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_extradimensional_weapon_1",
+    "name": "Extradimensional Weaponry",
+    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "area": "physics",
+    "base_factor": 10.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_ED_WEAPON",
+      "<b>Component</b>: MEDIUM_ED_WEAPON",
+      "<b>Component</b>: SMALL_ED_WEAPON"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Does NOT have the covenant_end_of_the_cycle modifier"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_gargantuan_evolution",
+    "name": "tech_gargantuan_evolution",
+    "description": "tech_gargantuan_evolution_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 8000,
+    "feature_unlocks": [
+      "mod_country_planet_jobs_energy_produces_mult +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_lgate_activation",
+    "name": "tech_lgate_activation",
+    "description": "tech_lgate_activation_desc",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 12000,
+    "feature_unlocks": [],
+    "is_dangerous": true,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Does NOT have the l_cluster_opened global flag"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_lost_building_methods",
+    "name": "tech_lost_building_methods",
+    "description": "tech_lost_building_methods_desc",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Industry",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_empire_size_districts_mult -30%",
+      "mod_country_envoys_add ",
+      "mod_country_planet_districts_cost_mult -30%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_matter_decompressor",
+    "name": "tech_matter_decompressor",
+    "description": "tech_matter_decompressor_desc",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Field Manipulation",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Mega-Structure</b>: matter_decompressor_0",
+      "<b>Mega-Structure</b>: matter_decompressor_1",
+      "<b>Mega-Structure</b>: matter_decompressor_2",
+      "<b>Mega-Structure</b>: matter_decompressor_3",
+      "<b>Mega-Structure</b>: matter_decompressor_4"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Mega-Engineering",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Megacorp"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_mining_drone_weapon_1",
+    "name": "Mining Drone Lasers",
+    "description": "Using intense-focus lenses in combination with an oscillating firing frequency help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 5000,
+    "feature_unlocks": [
+      "<b>Component</b>: MEDIUM_MINING_LASER",
+      "<b>Component</b>: SMALL_MINING_LASER"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_nanite_autocannon",
+    "name": "tech_nanite_autocannon",
+    "description": "tech_nanite_autocannon_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Propulsion",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_AUTOCANNON_4",
+      "<b>Component</b>: MEDIUM_AUTOCANNON_4",
+      "<b>Component</b>: SMALL_AUTOCANNON_4"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_nanite_flak_batteries",
+    "name": "tech_nanite_flak_batteries",
+    "description": "tech_nanite_flak_batteries_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Propulsion",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: FLAK_BATTERY_4"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_nanite_repair_system",
+    "name": "tech_nanite_repair_system",
+    "description": "tech_nanite_repair_system_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: AUTO_REPAIR_2"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_neuroregeneration",
+    "name": "tech_neuroregeneration",
+    "description": "tech_neuroregeneration_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 20000,
+    "feature_unlocks": [
+      "Species Leader Exp Gain +25%",
+      "mod_country_leader_lifespan_add +10"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_new_numbers",
+    "name": "tech_new_numbers",
+    "description": "tech_new_numbers_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Computing",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_all_tech_research_speed +5%",
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_orbital_trash_dispersal",
+    "name": "tech_orbital_trash_dispersal",
+    "description": "tech_orbital_trash_dispersal_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Propulsion",
+    "cost": 8000,
+    "feature_unlocks": [
+      "<b>Component</b>: ORBITAL_TRASH_1"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_ordered_retreat",
+    "name": "tech_ordered_retreat",
+    "description": "tech_ordered_retreat_desc",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_fleet_mia_time_mult -15%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_predatory_tactics",
+    "name": "tech_predatory_tactics",
+    "description": "tech_predatory_tactics_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Military Theory",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_prescient_data_modeling",
+    "name": "tech_prescient_data_modeling",
+    "description": "tech_prescient_data_modeling_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Statecraft",
+    "cost": 8000,
+    "feature_unlocks": [
+      "mod_country_trade_value_mult +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_psionic_barrier",
+    "name": "Psionic Barrier",
+    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 8000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_PSI_BARRIER",
+      "<b>Component</b>: MEDIUM_PSI_BARRIER",
+      "<b>Component</b>: SMALL_PSI_BARRIER"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_psionic_shield",
+    "name": "Psionic Shields",
+    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Psionics",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_PSI_SHIELD",
+      "<b>Component</b>: MEDIUM_PSI_SHIELD",
+      "<b>Component</b>: SMALL_PSI_SHIELD"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Psionic Theory",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_regenerative_hull_tissue",
+    "name": "Regenerative Hull Tissue",
+    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 10000,
+    "feature_unlocks": [
+      "<b>Component</b>: AUTO_REPAIR"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_rift_sphere",
+    "name": "tech_rift_sphere",
+    "description": "tech_rift_sphere_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Field Manipulation",
+    "cost": 10000,
+    "feature_unlocks": [
+      "<b>Feature : </b>feature_unlock_astral_rift_exploration"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_ring_world",
+    "name": "tech_ring_world",
+    "description": "tech_ring_world_desc",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Mega-Structure</b>: ring_world_1",
+      "<b>Mega-Structure</b>: ring_world_2_intermediate",
+      "<b>Mega-Structure</b>: ring_world_3_intermediate"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "Mega-Engineering",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_satisfying_insults",
+    "name": "tech_satisfying_insults",
+    "description": "tech_satisfying_insults_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Statecraft",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_country_insult_efficiency +50%",
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_scourge_missile_1",
+    "name": "Scourge Missiles",
+    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: LARGE_SCOURGE_MISSILE_1"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_baol",
+    "name": "tech_secrets_baol",
+    "description": "tech_secrets_baol_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Building</b>: building_baol_organic_plant"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_cybrex",
+    "name": "tech_secrets_cybrex",
+    "description": "tech_secrets_cybrex_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Starbase Building</b>: sm_cybrex_mining_hub"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_irassian",
+    "name": "tech_secrets_irassian",
+    "description": "tech_secrets_irassian_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Starbase Building</b>: sm_irassian_naval_yards"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_league",
+    "name": "tech_secrets_league",
+    "description": "tech_secrets_league_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Building</b>: building_league_offices"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_vultaum",
+    "name": "tech_secrets_vultaum",
+    "description": "tech_secrets_vultaum_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Building</b>: building_vultaum_reality_computer"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_yuht",
+    "name": "tech_secrets_yuht",
+    "description": "tech_secrets_yuht_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Starbase Building</b>: sm_yuht_detection_array"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_secrets_zroni",
+    "name": "tech_secrets_zroni",
+    "description": "tech_secrets_zroni_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Archaeostudies",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Starbase Building</b>: sm_zroni_storm_caster"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Ancient Relics Story Pack"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_space_cloud_weapon_1",
+    "name": "Cloud Lightning Conduits",
+    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 6000,
+    "feature_unlocks": [
+      "<b>Component</b>: SPACE_CLOUD_LIGHTNING"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_space_whale_weapon_1",
+    "name": "Frequency Tuning",
+    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 3000,
+    "feature_unlocks": [
+      "<b>Component</b>: SPACE_WHALE_WEAPON"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_strike_craft_skrand",
+    "name": "tech_strike_craft_skrand",
+    "description": "tech_strike_craft_skrand_desc",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 24000,
+    "feature_unlocks": [
+      "<b>Component</b>: STRIKE_CRAFT_SKRAND"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC galactic paragons"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_subspace_drive",
+    "name": "tech_subspace_drive",
+    "description": "tech_subspace_drive_desc",
+    "area": "physics",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 1000,
+    "feature_unlocks": [
+      "<b>Component</b>: SUBSPACE_DRIVE",
+      "<b>Feature : </b>feature_jump_method"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 0,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_supreme_alloy",
+    "name": "tech_supreme_alloy",
+    "description": "tech_supreme_alloy_desc",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Materials",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_planet_metallurgists_alloys_produces_add +50%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_swarm_strike_craft_1",
+    "name": "Swarm Spawning Pools",
+    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Biology",
+    "cost": 48000,
+    "feature_unlocks": [
+      "<b>Component</b>: SWARM_STRIKE_CRAFT"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_temple_of_transportation",
+    "name": "tech_temple_of_transportation",
+    "description": "tech_temple_of_transportation_desc",
+    "area": "engineering",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_megastructures_hyper_relay_unity_produces_add +3"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_trinary_computing",
+    "name": "tech_trinary_computing",
+    "description": "tech_trinary_computing_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Computing",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add ",
+      "mod_country_espionage_operation_difficulty_add +-1",
+      "mod_country_espionage_operation_speed_mult +10%"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_unusual_senses",
+    "name": "tech_unusual_senses",
+    "description": "tech_unusual_senses_desc",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_xeno_aesthetics",
+    "name": "tech_xeno_aesthetics",
+    "description": "tech_xeno_aesthetics_desc",
+    "area": "society",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Statecraft",
+    "cost": 6000,
+    "feature_unlocks": [
+      "mod_country_damage_vs_rival_mult +10%",
+      "mod_country_envoys_add "
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC First Contact"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
+    "key": "tech_xeno_linguistics",
+    "name": "tech_xeno_linguistics",
+    "description": "tech_xeno_linguistics_desc",
+    "area": "society",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Statecraft",
+    "cost": 2500,
+    "feature_unlocks": [
+      "<b>Starbase Building</b>: sm_recruitment_office",
+      "mod_country_first_contact_speed_mult +20%",
+      "mod_tech_xeno_linguistics_effect"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+) All must be true<br/>    •   null<br/>\t    •   One must be true<br/>\t\t    •   Is of country type: default<br/>\t\t    •   Is of country type: awakened_marauders<br/>\t\t    •   Is of country type: fallen_empire<br/>\t\t    •   Is of country type: awakened_fallen_empire<br/>\t    •   Does NOT have ethic_gestalt_consciousness Ethic<br/>    •   Is homicidal<br/>    •   Does NOT have ethic_gestalt_consciousness Ethic<br/>    •   perc_communications_with_playable>0"
+    ],
+    "potential": [
+      "Has DLC galactic paragons",
+      "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: awakened_marauders\n\t    •   Is of country type: fallen_empire\n\t    •   Is of country type: awakened_fallen_empire\n    •   Does NOT have ethic_gestalt_consciousness Ethic",
+      "Does NOT have ethic_gestalt_consciousness Ethic",
+      "Is homicidal"
+    ],
+    "children": [],
+    "is_event": true,
+    "is_gestalt": false,
+    "source": "vanilla"
+  }
+]
